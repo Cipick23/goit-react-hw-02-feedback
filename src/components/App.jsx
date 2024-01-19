@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Feedback from './feedback/Feedback';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class App extends Component {
   render() {
@@ -7,6 +8,7 @@ class App extends Component {
       <div>
         {/* Feedback Widget */}
         <Feedback />
+
       </div>
     );
   }
